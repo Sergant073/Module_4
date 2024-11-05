@@ -1,16 +1,11 @@
-# This is a sample Python script.
+import fake_math as fm
+import true_math as tm
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+result1 = fm.divide(69, 3)
+result2 = fm.divide(3, 0)
+result3 = tm.divide(49, 7)
+result4 = tm.divide(15, 0)
+print(result1)
+print(result2)
+print(result3)
+print(result4)
